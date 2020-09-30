@@ -1,0 +1,56 @@
+p {
+    color: blue;
+}
+
+p.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+
+.feedback {
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+}
+
+#top-container{
+    background-color: lightcoral;
+}
+
+#bottom-container{
+    background-color: lightgray;
+}
+
+div .error{
+    color: red;
+}
+
+a[href] {
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: lightseagreen;
+}
+a[href="www.google.com"] {
+    background-color: greenyellow;
+}
+a[href$=".ac.id"]{
+    background-color: peru;
+}
+
+h1:hover{
+    color: white;
+    background-color: rebeccapurple;
+}
+
+p::selection{
+    background-color: black;
+    color: cornflowerblue;
+}
+
+a::before{
+    content:"Link -";
+}
