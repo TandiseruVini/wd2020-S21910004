@@ -1,0 +1,21 @@
+.img1 {
+    display: block;
+    background-color: lightcoral;
+    padding: 20px;
+    border: 10px solid grey;
+    
+}
+.img2 {
+    display: block;
+    background-color: lightcoral;
+    padding: 20px;
+    border: 10px solid grey;
+    margin-left: 180px;
+}
+.img3 {
+    display: block;
+    background-color: lightcoral;
+    padding: 20px;
+    border: 10px solid grey;
+    margin-left: 360px;
+}
