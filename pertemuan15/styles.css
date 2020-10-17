@@ -1,0 +1,51 @@
+h1{
+    margin-top: 55px;
+}
+
+div.nav-fixed{
+    width: 500px;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+div.container1{
+    background-color: yellow;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+div.container2{
+    width : 400px;
+    height: 200px;
+    background-color: aquamarine;
+    position: sticky;
+    top: 50px;
+    
+}
+
+div.box1{
+    width: 100px;
+    height:100px;
+    background-color: rebeccapurple;
+    position: absolute;
+    
+    right: 50px;
+    
+}
+
+div.box2{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+}
+div.box3{
+    width: 100px;
+    height: 100px;
+    background-color: mediumspringgreen;
+   
+    
+}
